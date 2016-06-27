@@ -1,7 +1,7 @@
 # Mini Virtual Memory Management System in C
 ##TODO
-[] Update the batch files with the ones used for grading
-[] Update program to handle free merge
+- [] Update the batch files with the ones used for grading
+- [] Update program to handle free merge
 
 ##Recommended run:
 1. run the "run.bat" to compile cpp

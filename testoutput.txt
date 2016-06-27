@@ -1,0 +1,251 @@
+C:\Users\Ly\Dropbox\cs149\vmms>mmc 8
+Memory Management Console
+Enter Command: D/M/E ---> m
+Mapping Table Entry
++---------------+---------------+---------------+---------------+---------------+
+|PID            |Address        |Request Size   |Actual Size    |Timestamp      |
++---------------+---------------+---------------+---------------+---------------+
++---------------+---------------+---------------+---------------+---------------+
+0 row(s) displayed
+
+Free List Table
++---------------+---------------+
+|Address        |Size           |
++---------------+---------------+
+|73862008       |8196           |
++---------------+---------------+
+1 row(s) displayed
+Enter Command: D/M/E ---> m
+Mapping Table Entry
++---------------+---------------+---------------+---------------+---------------+
+|PID            |Address        |Request Size   |Actual Size    |Timestamp      |
++---------------+---------------+---------------+---------------+---------------+
+|9180           |73862008       |50             |56             |20160417215143 |
++---------------+---------------+---------------+---------------+---------------+
+1 row(s) displayed
+
+Free List Table
++---------------+---------------+
+|Address        |Size           |
++---------------+---------------+
+|73862040       |8140           |
++---------------+---------------+
+1 row(s) displayed
+Enter Command: D/M/E ---> d testing1.txt
+Enter Command: D/M/E ---> m
+Mapping Table Entry
++---------------+---------------+---------------+---------------+---------------+
+|PID            |Address        |Request Size   |Actual Size    |Timestamp      |
++---------------+---------------+---------------+---------------+---------------+
+|9180           |73862008       |50             |56             |20160417215147 |
+|3784           |73862040       |20             |24             |20160417215159 |
+|9180           |73862058       |10             |16             |20160417215200 |
++---------------+---------------+---------------+---------------+---------------+
+3 row(s) displayed
+
+Free List Table
++---------------+---------------+
+|Address        |Size           |
++---------------+---------------+
+|73862068       |8100           |
++---------------+---------------+
+1 row(s) displayed
+Enter Command: D/M/E ---> m
+Mapping Table Entry
++---------------+---------------+---------------+---------------+---------------+
+|PID            |Address        |Request Size   |Actual Size    |Timestamp      |
++---------------+---------------+---------------+---------------+---------------+
+|9180           |73862008       |50             |56             |20160417215147 |
+|3784           |73862040       |20             |24             |20160417215159 |
+|9180           |73862058       |10             |16             |20160417215226 |
+|9304           |73862068       |50             |56             |20160417215235 |
++---------------+---------------+---------------+---------------+---------------+
+4 row(s) displayed
+
+Free List Table
++---------------+---------------+
+|Address        |Size           |
++---------------+---------------+
+|738620A0       |8044           |
++---------------+---------------+
+1 row(s) displayed
+Enter Command: D/M/E ---> m
+Mapping Table Entry
++---------------+---------------+---------------+---------------+---------------+
+|PID            |Address        |Request Size   |Actual Size    |Timestamp      |
++---------------+---------------+---------------+---------------+---------------+
+|9180           |73862008       |50             |56             |20160417215147 |
+|3784           |73862040       |20             |24             |20160417215159 |
+|9180           |73862058       |10             |16             |20160417215226 |
+|9304           |73862068       |50             |56             |20160417215239 |
+|9304           |738620A0       |10             |16             |20160417215240 |
++---------------+---------------+---------------+---------------+---------------+
+5 row(s) displayed
+
+Free List Table
++---------------+---------------+
+|Address        |Size           |
++---------------+---------------+
+|738620B0       |8028           |
++---------------+---------------+
+1 row(s) displayed
+Enter Command: D/M/E ---> d testing2.txt
+Enter Command: D/M/E ---> m
+Mapping Table Entry
++---------------+---------------+---------------+---------------+---------------+
+|PID            |Address        |Request Size   |Actual Size    |Timestamp      |
++---------------+---------------+---------------+---------------+---------------+
+|9180           |73862008       |50             |56             |20160417215147 |
+|3784           |73862040       |20             |24             |20160417215159 |
+|9180           |73862058       |10             |16             |20160417215256 |
+|9304           |73862068       |50             |56             |20160417215239 |
+|9304           |738620A0       |10             |16             |20160417215253 |
++---------------+---------------+---------------+---------------+---------------+
+5 row(s) displayed
+
+Free List Table
++---------------+---------------+
+|Address        |Size           |
++---------------+---------------+
+|738620B0       |8028           |
++---------------+---------------+
+1 row(s) displayed
+Enter Command: D/M/E ---> m
+Mapping Table Entry
++---------------+---------------+---------------+---------------+---------------+
+|PID            |Address        |Request Size   |Actual Size    |Timestamp      |
++---------------+---------------+---------------+---------------+---------------+
+|9180           |73862008       |50             |56             |20160417215147 |
+|9180           |73862058       |10             |16             |20160417215256 |
+|9304           |73862068       |50             |56             |20160417215239 |
+|9304           |738620A0       |10             |16             |20160417215253 |
++---------------+---------------+---------------+---------------+---------------+
+4 row(s) displayed
+
+Free List Table
++---------------+---------------+
+|Address        |Size           |
++---------------+---------------+
+|73862040       |24             |
+|738620B0       |8028           |
++---------------+---------------+
+2 row(s) displayed
+Enter Command: D/M/E ---> m
+Mapping Table Entry
++---------------+---------------+---------------+---------------+---------------+
+|PID            |Address        |Request Size   |Actual Size    |Timestamp      |
++---------------+---------------+---------------+---------------+---------------+
+|9180           |73862008       |50             |56             |20160417215147 |
+|9180           |73862058       |10             |16             |20160417215256 |
+|9304           |73862068       |50             |56             |20160417215239 |
+|9304           |738620A0       |10             |16             |20160417215253 |
+|3784           |738620B0       |28             |32             |20160417215314 |
++---------------+---------------+---------------+---------------+---------------+
+5 row(s) displayed
+
+Free List Table
++---------------+---------------+
+|Address        |Size           |
++---------------+---------------+
+|73862040       |24             |
+|738620D0       |7996           |
++---------------+---------------+
+2 row(s) displayed
+Enter Command: D/M/E ---> m
+Mapping Table Entry
++---------------+---------------+---------------+---------------+---------------+
+|PID            |Address        |Request Size   |Actual Size    |Timestamp      |
++---------------+---------------+---------------+---------------+---------------+
+|9180           |73862008       |50             |56             |20160417215147 |
+|9180           |73862058       |10             |16             |20160417215256 |
+|9304           |73862068       |50             |56             |20160417215239 |
+|9304           |738620A0       |10             |16             |20160417215253 |
+|3784           |738620B0       |28             |32             |20160417215319 |
++---------------+---------------+---------------+---------------+---------------+
+5 row(s) displayed
+
+Free List Table
++---------------+---------------+
+|Address        |Size           |
++---------------+---------------+
+|73862040       |24             |
+|738620D0       |7996           |
++---------------+---------------+
+2 row(s) displayed
+Enter Command: D/M/E ---> d testing3.txt
+Enter Command: D/M/E ---> d testing3.bin
+Enter Command: D/M/E ---> e
+
+C:\Users\Ly\Dropbox\cs149\vmms>test1
+
+Testing malloc 50
+Return code: 0
+Press any key to continue . . .
+
+Testing memcpy (list)
+Return code: 0
+Press any key to continue . . .
+
+Testing memcpy (list + 10)
+Return code: 0
+Press any key to continue . . .
+
+list address = 73862008; Name = Testing; ID = mem
+
+Testing malloc 10
+Return code: 0
+Press any key to continue . . .
+
+Testing memset
+Return code: 0
+Press any key to continue . . .
+
+Testing print
+ccccccccc
+Return code: 0
+Press any key to continue . . .
+
+Testing free invalid ptr
+--Free Error: Entry was not found.--
+Return code: 104
+Press any key to continue . . .
+
+C:\Users\Ly\Dropbox\cs149\vmms>test2
+
+Malloc 20 bytes for temp name holder...
+Return code: 0
+Press any key to continue . . .
+
+Testing invalid memcpy size.
+Memcpy 21 bytes into 20 byte allocation...
+--Memcopy Error: Destination size is less than available allocated size.--
+Return code: 101
+Press any key to continue . . .
+
+Testing memcpy out of range.
+Memcpy 11 byte into name + 10
+--Memcopy Error: Destination size is less than available allocated size.--
+Return code: 101
+Press any key to continue . . .
+
+Testing valid memcpy.
+Memcpy 20 bytes into 20 byte allocation
+Return code: 0
+Press any key to continue . . .
+
+Free name allocation.
+Return code: 0
+Press any key to continue . . .
+
+Add a node to linked list.
+add_student(101, name, &rc);
+
+Malloc new student node...
+Press any key to continue . . .
+
+Memcpy student name...
+Press any key to continue . . .
+Return code: 0
+Press any key to continue . . .
+Name = Ly Dang; ID = 101
+
